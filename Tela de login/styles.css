@@ -1,0 +1,51 @@
+body {
+    font-family: arial;
+    background-image: linear-gradient(45deg,orange, darkred);
+}
+
+.tela-login {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 55px;
+    border-radius: 15px;
+    color: white;
+}
+
+.login {
+    margin-bottom: 35px;
+    padding-left: 74px;
+}
+
+.name-senha-one, .name-senha-two {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+::placeholder {
+    font-family: arial;
+    font-size: 15px;
+}
+
+.entrar {
+    background-color: orangered;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    font-family: Arial; 
+    transition: 0.3s ease-in-out;  
+    font-weight: bold;     
+}
+
+.entrar:hover {
+    background-color: rgba(255, 68, 0, 0.363);
+    cursor: pointer;
+}
